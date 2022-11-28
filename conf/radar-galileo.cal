@@ -1,0 +1,23 @@
+#
+# /home/chilbolton_software/radar-galileo/etc/radar-galileo.cal
+#
+# This file contains the Z calibration and the range offset
+# for the Galileo 94 GHz radar.
+#
+# z-calibration    : The reflectivity calibration to be added to the raw Z (dB)
+# zdr-calibration  : The calibration to be added to the raw ZDR (dB)
+# ldr-calibration  : The calibration to be added to the raw LDR (dB)
+# range-offset     : The range calibration to be added to the raw range (m)
+# 
+# Notes:
+# - Last updated on 17/06/2004 by EGP
+# - Calibration according to Nicolas relative to CAMRa
+# - Range offset determined from comparison with CAMRa
+# - ZDR calibration has not been carried out
+
+z-calibration -162.0
+z-incoherent-calibration 0
+z-incoherent-noise 1.1689
+zdr-calibration 0
+ldr-calibration 0
+range-offset -220
